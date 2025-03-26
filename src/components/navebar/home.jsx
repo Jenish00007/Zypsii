@@ -100,8 +100,8 @@ const HeroSection = () => {
           <h1 className="fw-bold">
             <span ref={el}></span>
           </h1>
-          <p>Plan, Connect & Share Your Adventures – All in One App!</p>
-
+          <p ><span className="logo-text ms-2 fw-bold "style={{color:"#b300b3"}}>Plan, Connect & Share</span> Your Adventures – All in One App!</p>
+          
           {/* Buttons */}
           <div className="d-flex justify-content-center gap-3">
             <button className="btn btn-primary"><DiAppstore size={30}/>App Store</button>
