@@ -44,12 +44,16 @@ const ScrollAnimation = () => {
           {/* Right Side - Text */}
           <div className="col-lg-6 col-md-6 content-container animate-on-scroll fade-left">
             <div className="text-container">
-              <h2 className="fw-bold mb-3">Start Your Journey Today! </h2>
+              <h2 className="fw-bold mb-3">
+                <i className="fas fa-mobile-alt" style={{ marginRight: '8px' }}></i>
+                Coming Soon!
+              </h2>
               <p className="mb-4">
-              Download the app & explore the world with ease.
+                Download the app & explore the world with ease.
               </p>
-              <button className="btn bttn btn-lg">Get Started</button>
+              {/* <button className="btn bttn btn-lg">Get Started</button              > */}
             </div>
+
           </div>
         </div>
       </div>

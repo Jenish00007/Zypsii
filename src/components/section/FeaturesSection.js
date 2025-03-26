@@ -36,10 +36,10 @@ const FeaturesSection = () => {
 
   const features = [
     { title: " Personalized Itineraries", description: "Tailored trips based on your interests." ,icon:<MdOutlineInterests size={50}/>},
-    { title: " Real-Time Updates ", description: " Weather, flights, and local events at your fingertips.",icon:<GrUpdate size={50} /> },
+    { title: " Real-Time Updates ", description: " Weather and local places at your fingertips.",icon:<GrUpdate size={50} /> },
     { title: " Share Your Moments", description: "Share your moments with the world! Upload reels, photos, and stories " ,icon:<FaGlobe size={50} />},
     { title: "Discover Places ", description: "Explore and discover amazing places around you!" ,icon:<TbBrandBooking size={50}/>},
-    { title: "Story Section ", description: " Share your travel experiences through pictures & blogs." ,icon:<SiStorybook size={50}/> },
+    { title: "Connect with Travelers", description: "Share your adventures with the community and inspire others to join your journey." ,icon:<SiStorybook size={50}/> },
     { title: "Chat with Travelers", description: "Connect with friends or meet new explorers in real-time",icon:<CiChat1 size={50} /> },
   ];
 

@@ -6,10 +6,24 @@ const Footer = () => {
     <footer className="bg-dark text-light py-3 mt-5" id="contact">
       <Container>
         <Row className="justify-content-between align-items-center text-center">
-          <Col md={4} xs={12}>
-            <h5>About Us</h5>
-            <p>We provide high-quality services to our customers worldwide.</p>
+          <Col md={4} xs={12} className="follow-us-col">
+            <h5>Follow Us</h5>
+            <div className="social-icons">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </div>
           </Col>
+
           <Col md={4} xs={12}>
             <h5>Quick Links</h5>
             <ul className="list-inline">

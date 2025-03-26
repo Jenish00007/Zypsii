@@ -18,10 +18,10 @@ const HeroSection = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'A Powerful App for Your <span style="color: #b300b3;">Travel</span>',
-        'Inspired by into the <span style="color: #b300b3;">World</span>',
-        'Plan Your Next <span style="color: #b300b3;">Adventure</span>',
-        'Explore the <span style="color: #b300b3;">World</span>'
+        'A Powerful App to connect <span style="color: #b300b3;">Traveler\'s</span>',
+        'Inspired by <span style="color: #b300b3;"> into the world</span>',
+        'Plan your next <span style="color: #b300b3;">adventure</span>',
+        'Explore the <span style="color: #b300b3;">world</span>'
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -74,7 +74,6 @@ const HeroSection = () => {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav" >
-              
               <li className="nav-item"><a className="nav-link fw-bold" href="#nearest" style={{color:"#b300b3"}}>Nearest</a></li>
               <li className="nav-item"><a className="nav-link fw-bold" href="#track" style={{color:"#b300b3"}}  >Track</a></li>
               <li className="nav-item"><a className="nav-link fw-bold" href="#explore" style={{color:"#b300b3"}}>Explore</a></li>
